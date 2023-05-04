@@ -34,7 +34,7 @@ body{
     background-image: url(../img/track.png);
     background-repeat: repeat-x;
     position: absolute;
-    top: 900px;
+    top: 80vh;
     animation: track-movement linear 4s infinite;
 }
 
@@ -43,7 +43,7 @@ body{
     width: 100%;
     background-image: url(../img/car_body.png);
     background-repeat: no-repeat;
-    background-size: 25%;
+    background-size: 27%;
     position: absolute;
     top: 76vh;
     left: 40vw;
@@ -59,8 +59,8 @@ body{
 
 #wheel-right{
     position: absolute;
-    top: 6vh;
-    left: 15.8vw;
+    top: 6.5vh;
+    left: 16.9vw;
     animation: wheel-rotate linear .5s infinite;
 }
 
